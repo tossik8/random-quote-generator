@@ -4,6 +4,30 @@ const quotes = [
         "author": "Sheryl Sandberg"
     },
     {
+        "quote": "The best thing to hold onto in life is each other.",
+        "author": "Audrey Hepburn"
+    },
+    {
+        "quote": "Love doesn’t make the world go round. Love is what makes the ride worthwhile.",
+        "author": "Franklin P. Jones"
+    },
+    {
+        "quote": "The most sincere compliment we can pay is attention.",
+        "author": "Walter Anderson"
+    },
+    {
+        "quote": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.",
+        "author": "Steve Jobs"
+    },
+    {
+        "quote": "That's been one of my mantras - focus and simplicity. Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it's worth it in the end because once you get there, you can move mountains.",
+        "author": "Steve Jobs"
+    },
+    {
+        "quote": "It's not that I'm so smart, it's just that I stay with problems longer.",
+        "author": "Albert Einstein"
+    },
+    {
         "quote":"Be yourself; everyone else is already taken.",
         "author":"Oscar Wilde"
     },
@@ -114,6 +138,66 @@ const quotes = [
     {
         "quote":"Don’t walk in front of me… I may not follow, Don’t walk behind me… I may not lead, Walk beside me… just be my friend",
         "author":"Albert Camu"
+    },
+    {
+        "quote": "The journey of a thousand miles begins with one step.",
+        "author": "Lao Tzu"
+    },
+    {
+        "quote": "When the going gets tough, the tough get going.",
+        "author": "Joe Kennedy"
+    },
+    {
+        "quote": "Life is like a box of chocolates. You never know what you’re going to get.",
+        "author": "Forrest Gump"
+    },
+    {
+        "quote":"If you tell the truth, you don’t have to remember anything.",
+        "author": "Mark Twain"
+    },
+    {
+        "quote": "What you do speaks so loudly that I cannot hear what you say.",
+        "author": "Ralph Waldo Emerson"
+    },
+    {
+        "quote": "A mind is like a parachute. It doesn’t work if it isn’t open.",
+        "author": "Frank Zappa"
+    },
+    {
+        "quote": "If you aren’t going all the way, why go at all?",
+        "author": "Joe Namath"
+    },
+    {
+        "quote": "I would rather die of passion than of boredom.",
+        "author": "Vincent van Gogh"
+    },
+    {
+        "qoute": "Keep smiling, because life is a beautiful thing and there’s so much to smile about.",
+        "author": "Marilyn Monroe"
+    },
+    {
+        "quote": "The successful warrior is the average man, with laser-like focus.",
+        "author": "Bruce Lee"
+    },
+    {
+        "quote": "Creativity is intelligence having fun.",
+        "author": "Albert Einstein"
+    },
+    {
+        "quote":"Food comes first and then morality",
+        "author": "Bertolt Brecht"
+    },
+    {
+        "quote": "A wise man can learn more from a foolish question than a fool can learn from a wise answer.",
+        "author": "Bruce Lee"
+    },
+    {
+        "quote": "The people who are crazy enough to think they can change the world are the ones who do.",
+        "author": "Steve Jobs"
+    },
+    {
+        "quote": "Life itself is the most wonderful fairy tale.",
+        "author": "Hans Christian Anderson"
     }
 ];
 export {quotes};
