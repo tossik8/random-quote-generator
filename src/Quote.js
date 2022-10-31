@@ -7,30 +7,31 @@ import { faTumblr } from "@fortawesome/free-brands-svg-icons";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { generateColor } from "./colorGenerator";
 
+
 const Quote = () =>{
-    window.onload = () =>{
-        document.getElementById("text").onanimationstart= () =>{
-            document.getElementById("new-quote").disabled = true;
-        };
-        document.getElementById("text").onanimationend = () =>{
-          document.getElementById("text").classList.remove(styles.animated);
-          document.getElementById("new-quote").disabled = false;
-        };
-        document.getElementById("author").onanimationend = () =>{
-            document.getElementById("author").classList.remove(styles.animated);
-          };
-    }
     const [quote, setQuote] = useState("");
     const [author, setAuthor] = useState("");
     const [color, setColor] = useState("");
 
     useEffect(() =>{
+        document.getElementById("text").onanimationstart= () =>{
+            document.getElementById("new-quote").disabled = true;
+        };
+        document.getElementById("text").onanimationend = () =>{
+            document.getElementById("text").classList.remove(styles.animated);
+            document.getElementById("new-quote").disabled = false;
+        };
+        document.getElementById("author").onanimationend = () =>{
+            document.getElementById("author").classList.remove(styles.animated);
+        };
+
         let color2 = generateColor();
         let index = Math.round(Math.random() * (quotes.length-1));
         document.getElementById("text").classList.add(styles.animated);
         document.getElementById("author").classList.add(styles.animated);
         setColor(color2);
-        setTimeout(() => {setQuote(quotes[index].quote);
+        setTimeout(() => {
+            setQuote(quotes[index].quote);
             setAuthor(quotes[index].author);
 
         }, 800);
@@ -68,5 +69,6 @@ const Quote = () =>{
             </div>
         </div>
     )
-}
+};
+
 export default Quote;

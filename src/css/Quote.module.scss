@@ -1,18 +1,60 @@
 @keyframes fadeInOut{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
+@-webkit-keyframes fadeInOut{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeInOut{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeInOut{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .animated{
     animation: fadeInOut 2s;
     -webkit-animation: fadeInOut 2s;
+    -o-animation: fadeInOut 2s;
+    -moz-animation: fadeInOut 2s;
 }
 body{
     margin: 0;
     box-sizing: border-box;
     transition: background-color 2s ease-out;
     .blockQuote{
-        background-color: #ffffff ;
+        background-color: #ffffff;
         padding-bottom: 2rem;
         width: 40%;
         border-radius: 1rem;
