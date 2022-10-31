@@ -5,6 +5,7 @@
 }
 .animated{
     animation: fadeInOut 2s;
+    -webkit-animation: fadeInOut 2s;
 }
 body{
     margin: 0;
