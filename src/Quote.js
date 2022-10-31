@@ -9,8 +9,12 @@ import { generateColor } from "./colorGenerator";
 
 const Quote = () =>{
     window.onload = () =>{
+        document.getElementById("text").onanimationstart= () =>{
+            document.getElementById("new-quote").disabled = true;
+        };
         document.getElementById("text").onanimationend = () =>{
           document.getElementById("text").classList.remove(styles.animated);
+          document.getElementById("new-quote").disabled = false;
         };
         document.getElementById("author").onanimationend = () =>{
             document.getElementById("author").classList.remove(styles.animated);
