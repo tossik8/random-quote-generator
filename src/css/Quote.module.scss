@@ -1,16 +1,7 @@
 @keyframes fadeInOut{
-    0%{
-        opacity: 1;
-        -webkit-animation: normal;
-    }
-    50%{
-        opacity: 0;
-        -webkit-animation: normal;
-    }
-    100%{
-        opacity: 1;
-        -webkit-animation: normal;
-    }
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
 }
 .animated{
     animation: fadeInOut 2s;
@@ -114,7 +105,6 @@ body{
                     font-size: 2rem;
                 }
                 .quote{
-
                     font-size: 1.6rem;
                 }
             }
