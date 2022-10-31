@@ -184,7 +184,7 @@ const quotes = [
         "author": "Albert Einstein"
     },
     {
-        "quote":"Food comes first and then morality",
+        "quote":"Food comes first and then morality.",
         "author": "Bertolt Brecht"
     },
     {
