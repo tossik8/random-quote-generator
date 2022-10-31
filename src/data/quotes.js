@@ -128,7 +128,7 @@ const quotes = [
         "author":"Mahatma Gandhi"
     },
     {
-        "quote":"In three words I can sum up everything I've learned about life: it goes on",
+        "quote":"In three words I can sum up everything I've learned about life: it goes on.",
         "author":"Robert Frost"
     },
     {
@@ -136,7 +136,7 @@ const quotes = [
         "author":"J.K. Rowling"
     },
     {
-        "quote":"Don’t walk in front of me… I may not follow, Don’t walk behind me… I may not lead, Walk beside me… just be my friend",
+        "quote":"Don’t walk in front of me… I may not follow, Don’t walk behind me… I may not lead, Walk beside me… just be my friend.",
         "author":"Albert Camu"
     },
     {
