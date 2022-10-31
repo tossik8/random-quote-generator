@@ -77,3 +77,38 @@ body{
         }
     }
 }
+@media screen and (max-width: 820px){
+    body{
+        .blockQuote{
+            width: 60%;
+        }
+    }
+}
+@media screen and (max-width: 530px){
+    body{
+        .blockQuote{
+            width: 80%;
+            blockquote{
+                .quote{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 376px){
+    body{
+        .blockQuote{
+            width: 90%;
+            blockquote{
+                .leftQuotes{
+                    font-size: 2rem;
+                }
+                .quote{
+
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
