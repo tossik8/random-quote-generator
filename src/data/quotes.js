@@ -4,6 +4,26 @@ const quotes = [
         "author": "Sheryl Sandberg"
     },
     {
+        "quote":"Success usually comes to those who are too busy looking for it.",
+        "author":"Henry David Thoreau"
+    },
+    {
+        "quote":"Take the attitude of a student, never be too big to ask questions, never know too much to learn something new.",
+        "author": "Augustine Og Mandino"
+    },
+    {
+        "quote": "Alone we can do so little, together we can do so much.",
+        "author":"Helen Keller"
+    },
+    {
+        "quote": "The important thing is that your teammates have to know you're pulling for them and you really want them to be successful.",
+        "author": "Kobe Bryant"
+    },
+    {
+        "quote": "Have a good time. Life is too short to get bogged down and be discouraged. You have to keep moving. You have to keep going. Put one foot in front of the other, smile and just keep on rolling.",
+        "author": "Kobe Bryant"
+    },
+    {
         "quote": "The best thing to hold onto in life is each other.",
         "author": "Audrey Hepburn"
     },
