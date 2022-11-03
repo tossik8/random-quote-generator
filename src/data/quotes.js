@@ -16,6 +16,18 @@ const quotes = [
         "author":"Helen Keller"
     },
     {
+        "quote": "I’m a great believer in luck, and I find the harder I work the more I have of it.",
+        "author": "Thomas Jefferson"
+    },
+    {
+        "quote": "It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.",
+        "author": "William James"
+    },
+    {
+        "quote": "What we fear doing most is usually what we most need to do.",
+        "author": "Ralph Waldo Emerson"
+    },
+    {
         "quote": "The important thing is that your teammates have to know you're pulling for them and you really want them to be successful.",
         "author": "Kobe Bryant"
     },
