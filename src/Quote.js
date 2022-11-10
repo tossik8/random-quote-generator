@@ -26,7 +26,7 @@ const Quote = () =>{
         };
 
         let color2 = generateColor();
-        let index = Math.round(Math.random() * (quotes.length-1));
+        let index = Math.floor(Math.random() * quotes.length);
         document.getElementById("text").classList.add(styles.animated);
         document.getElementById("author").classList.add(styles.animated);
         setColor(color2);
@@ -39,7 +39,7 @@ const Quote = () =>{
 
     const handleClick = () =>{
         let color2 = generateColor();
-        let index = Math.round(Math.random() * (quotes.length-1));
+        let index = Math.floor(Math.random() * quotes.length);
         document.getElementById("text").classList.add(styles.animated);
         document.getElementById("author").classList.add(styles.animated);
         setColor(color2);
