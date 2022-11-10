@@ -24,6 +24,14 @@ const quotes = [
         "author": "William James"
     },
     {
+        "quote": "Some people never go crazy. What truly horrible lives they must lead.",
+        "author": "Charles Bukowski"
+    },
+    {
+        "quote":"It always seems impossible until it’s done.",
+        "author": "Nelson Mandela"
+    },
+    {
         "quote": "What we fear doing most is usually what we most need to do.",
         "author": "Ralph Waldo Emerson"
     },
