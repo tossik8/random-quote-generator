@@ -296,8 +296,8 @@ const quotes = [
         "author":"Elon Musk"
     },
     {
-        "quote":"To make an embarrassing admission, I like video games. That's what got me into software engineering when I was a kid. I wanted to make money so I could buy a better computer to play better video games - nothing like saving the world.",
-        "author":"Elon Musk"
+        "quote": "Patriotism is your conviction that this country is superior to all other countries because you were born in it.",
+        "author": "George Bernard Shaw"
     }
 ];
 export {quotes};
