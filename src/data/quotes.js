@@ -238,6 +238,66 @@ const quotes = [
     {
         "quote": "Life itself is the most wonderful fairy tale.",
         "author": "Hans Christian Anderson"
+    },
+    {
+        "quote": "The bad news is time flies. The good news is you're the pilot.",
+        "author": "Michael Altshuler"
+    },
+    {
+        "quote": "Be courageous. Challenge orthodoxy. Stand up for what you believe in. When you are in your rocking chair talking to your grandchildren many years from now, be sure you have a good story to tell.",
+        "author": "Amal Clooney"
+    },
+    {
+        "quote": "Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.",
+        "author": "Lady Gaga"
+    },
+    {
+        "quote": "Weaknesses are just strengths in the wrong environment.",
+        "author": "Marianne Cantwell"
+    },
+    {
+        "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "author": "Albert Einstein"
+    },
+    {
+        "quote": "We generate fears while we sit. We overcome them by action.",
+        "author":"Dr. Henry Link"
+    },
+    {
+        "quote":"I've noticed when I fear something, if I just end up doing it, I'm grateful in the end.",
+        "author":"Colleen Hoover"
+    },
+    {
+        "quote":"Out of the mountain of despair, a stone of hope.",
+        "author": "Martin Luther King, Jr."
+    },
+    {
+        "quote":"A lot of people are afraid to say what they want. That's why they don't get what they want.",
+        "author":"Madonna"
+    },
+    {
+        "quote": "All children are artists. The problem is how to remain an artist once we grow up.",
+        "author":"Pablo Picasso"
+    },
+    {
+        "quote":"There are painters who transform the sun to a yellow spot, but there are others who with the help of their art and their intelligence, transform a yellow spot into sun.",
+        "author":"Pablo Picasso"
+    },
+    {
+        "quote":"Computers are useless. They can only give you answers.",
+        "author": "Pablo Picasso"
+    },
+    {
+        "quote": "To draw, you must close your eyes and sing.",
+        "author": "Pablo Picasso"
+    },
+    {
+        "quote": "I'd rather be optimistic and wrong than pessimistic and right.",
+        "author":"Elon Musk"
+    },
+    {
+        "quote":"To make an embarrassing admission, I like video games. That's what got me into software engineering when I was a kid. I wanted to make money so I could buy a better computer to play better video games - nothing like saving the world.",
+        "author":"Elon Musk"
     }
 ];
 export {quotes};
