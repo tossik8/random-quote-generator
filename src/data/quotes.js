@@ -236,12 +236,24 @@ const quotes = [
         "author": "Steve Jobs"
     },
     {
+        "quote": "The most important thing is to enjoy your life - to be happy - it's all that matters.",
+        "author": "Steve Jobs"
+    },
+    {
+        "quote": "The best way to find out what you want in life is to try a lot of things.",
+        "author": "Oprah Winfrey"
+    },
+    {
         "quote": "Life itself is the most wonderful fairy tale.",
         "author": "Hans Christian Anderson"
     },
     {
         "quote": "The bad news is time flies. The good news is you're the pilot.",
         "author": "Michael Altshuler"
+    },
+    {
+        "quote":"I can accept failure, everyone fails at something. But I can't accept not trying.",
+        "author": "Michael Jordan"
     },
     {
         "quote": "Be courageous. Challenge orthodoxy. Stand up for what you believe in. When you are in your rocking chair talking to your grandchildren many years from now, be sure you have a good story to tell.",
@@ -298,6 +310,34 @@ const quotes = [
     {
         "quote": "Patriotism is your conviction that this country is superior to all other countries because you were born in it.",
         "author": "George Bernard Shaw"
+    },
+    {
+        "quote": "I'm not interested in money. I just want to be wonderful.",
+        "author": "Marilyn Monroe"
+    },
+    {
+        "quote": "The only thing that feels better than winning is winning when nobody thought you could.",
+        "author": "Hank Aaron"
+    },
+    {
+        "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+        "author":"John Quincy Adams"
+    },
+    {
+        "quote":"Behind every great man is a woman rolling her eyes.",
+        "author": "Jim Carrey"
+    },
+    {
+        "quote" : "When in doubt, look intelligent.",
+        "author" : "Garrison Keillor"
+    },
+    {
+        "quote" : "If your ship doesn’t come in, swim out to it!",
+        "author":"Jonathan Winters"
+    },
+    {
+        "quote": "Eighty percent of success is showing up",
+        "author":"Woody Allen"
     }
 ];
 export {quotes};
