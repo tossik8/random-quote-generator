@@ -172,6 +172,10 @@ const quotes = [
         "author":"Robert Frost"
     },
     {
+        "quote": "Two roads diverged in a wood, and I, I took the one less travelled by, and that has made all the difference.",
+        "author":"Robert Frost"
+    },
+    {
         "quote":"If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
         "author":"J.K. Rowling"
     },
@@ -338,6 +342,22 @@ const quotes = [
     {
         "quote": "Eighty percent of success is showing up",
         "author":"Woody Allen"
+    },
+    {
+        "quote": "I think, therefore I am.",
+        "author":"René Descartes"
+    },
+    {
+        "quote": "If you are going through hell, keep going.",
+        "author": "Winston Churuchill"
+    },
+    {
+        "quote":"That’s one small step for a man, a giant leap for mankind.",
+        "author":"Neil Armstrong"
+    },
+    {
+        "quote": "To err is human; to forgive, divine.",
+        "author":"Alexander Pope"
     }
 ];
 export {quotes};
