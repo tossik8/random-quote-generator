@@ -358,6 +358,46 @@ const quotes = [
     {
         "quote": "To err is human; to forgive, divine.",
         "author":"Alexander Pope"
+    },
+    {
+        "quote": "So avoid using the word ‘very’ because it’s lazy. A man is not very tired, he is exhausted. Don’t use very sad, use morose. Language was invented for one reason, boys - to woo women - and, in that endeavor, laziness will not do. It also won’t do in your essays.",
+        "author": "John Keating, Dead Poets Society"
+    },
+    {
+        "quote": "You must strive to find your own voice, boys, and the longer you wait to begin, the less likely you are to find it at all.",
+        "author": "John Keating, Dead Poets Society"
+    },
+    {
+        "quote": "There's a time for daring and there's a time for caution, and a wise man understands which is called for.",
+        "author": "John Keating, Dead Poets Society"
+    },
+    {
+        "quote": "No matter what anybody tells you, words and ideas can change the world.",
+        "author": "John Keating, Dead Poets Society"
+    },
+    {
+        "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+        "author": "Oscar Wilde"
+    },
+    {
+        "quote": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.",
+        "author": "H. Jackson Brown Jr."
+    },
+    {
+        "quote": "I know not all that may be coming, but be it what it will, I'll go to it laughing.",
+        "author": "Herman Melville"
+    },
+    {
+        "quote": "It is not down on any map; true places never are.",
+        "author": "Ishmael, Moby Dick"
+    },
+    {
+        "quote": "As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts.",
+        "author": "Ishmael, Moby Dick"
+    },
+    {
+        "quote": "An utterly fearless man is a far more dangerous comrade than a coward.",
+        "author": "Herman Melville"
     }
 ];
 export {quotes};

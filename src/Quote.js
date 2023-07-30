@@ -39,13 +39,13 @@ const Quote = () =>{
 
     const handleClick = () =>{
         let color2 = generateColor();
-        let index = Math.floor(Math.random() * quotes.length);
+        let index =  quotes.length - 1 //Math.floor(Math.random() * quotes.length);
         document.getElementById("text").classList.add(styles.animated);
         document.getElementById("author").classList.add(styles.animated);
         setColor(color2);
-        setTimeout(() => {setQuote(quotes[index].quote);
+        setTimeout(() => {
+            setQuote(quotes[index].quote);
             setAuthor(quotes[index].author);
-
         }, 800);
 
     };
@@ -59,10 +59,10 @@ const Quote = () =>{
             <div className={styles.panel}>
                 <div className={styles.icons}>
                     <div className={styles.iconWrapper} style={{backgroundColor: color}}>
-                        <a id="tweet-quote" target="_blank" href="https://www.twitter.com/intent/tweet"><FontAwesomeIcon className={styles.twitterIcon} icon={faTwitter}/></a>
+                        <a id="tweet-quote" target="_blank" rel="noreferrer" href="https://www.twitter.com/intent/tweet"><FontAwesomeIcon className={styles.twitterIcon} icon={faTwitter}/></a>
                     </div>
                     <div className={styles.iconWrapper} style={{backgroundColor: color}}>
-                        <a id="tumblr-quote" target="_blank" href="https://www.tumblr.com" ><FontAwesomeIcon className={styles.tumblrIcon} icon={faTumblr}/></a>
+                        <a id="tumblr-quote" target="_blank" rel="noreferrer" href="https://www.tumblr.com" ><FontAwesomeIcon className={styles.tumblrIcon} icon={faTumblr}/></a>
                     </div>
                 </div>
                 <button id="new-quote" className={styles.newQuote} style={{backgroundColor:  color}} onClick={handleClick}>New quote</button>
