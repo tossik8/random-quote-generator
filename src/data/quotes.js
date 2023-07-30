@@ -385,7 +385,7 @@ const quotes = [
     },
     {
         "quote": "I know not all that may be coming, but be it what it will, I'll go to it laughing.",
-        "author": "Herman Melville"
+        "author": "Stubb, Moby Dick"
     },
     {
         "quote": "It is not down on any map; true places never are.",
@@ -397,7 +397,7 @@ const quotes = [
     },
     {
         "quote": "An utterly fearless man is a far more dangerous comrade than a coward.",
-        "author": "Herman Melville"
+        "author": "Ishmael, Moby Dick"
     }
 ];
 export {quotes};
